@@ -1,0 +1,32 @@
+.container{
+    height: 450px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#intro
+{
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+#button:hover {
+  background-color:  #4CAF50; /* Green */
+  color: white;
+}
+#button
+{
+  background-color: #AAAAAA
+  border: none;
+  color: black;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
